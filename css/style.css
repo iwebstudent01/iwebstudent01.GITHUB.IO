@@ -1,26 +1,88 @@
+ /* GLOBAL */
+ 
+ 
+ 
  * { box-sizing: border-box; }
 
 body {
 
  
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: darkred;
+    color: darkgoldenrod;
 }
 
 
 /* HEADER */  
-ul {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 0;
-}
-
-li {
-    text-align: left;
+header {
+   background: lightskyblue;
+   color: orange;
+   padding: 1em 2em;
 
 }
+
+header a {
+    color: darkred;
+
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+
+
+/* SITE ID */
+.site-id h1 {
+    margin:0;
+}
+
+
+/* NAV */
+nav ul {
+    display: flex;
+    justify-content: flec-end;
+    margin: 0;
+    padding-top: .6em;
+}
+
+nav li {
+    margin: 0;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
