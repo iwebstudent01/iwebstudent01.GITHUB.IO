@@ -90,7 +90,7 @@ footer nav ul {
     display: grid;
     align-content: center;
     text-align: center;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(102, 255, 0));
     min-height: 50vh;
     color: rgb(48, 20, 4);
 }
@@ -104,12 +104,12 @@ footer nav ul {
 margin: 1em auto;
 }
 
-.hero h2 span:nth-child(1) { color: darkred; }
-.hero h2 span:nth-child(2) { color: darkorange; }
-.hero h2 span:nth-child(3) { color: yellow; }
-.hero h2 span:nth-child(4) { color: limegreen; }    
-.hero h2 span:nth-child(5) { color: lightskyblue; }   
-.hero h2 span:nth-child(6) { color: magenta; }
+.hero h2 span:nth-child(6) { color: rgb(255, 0, 0); }
+.hero h2 span:nth-child(5) { color: rgb(224, 64, 64); }
+.hero h2 span:nth-child(4) { color: rgb(238, 106, 106); }
+.hero h2 span:nth-child(3) { color: rgb(230, 150, 150); }    
+.hero h2 span:nth-child(2) { color: rgb(231, 185, 185); }   
+.hero h2 span:nth-child(1) { color: rgb(255, 255, 255); }
 
 /* LISTS */
 .lists {
@@ -126,6 +126,10 @@ margin: 1em auto;
     }
 }
 
+/* SUBPAGES */
+.page-sub .hero {
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,40,0))
+}
 
 
 
