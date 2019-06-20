@@ -10,7 +10,7 @@ body {
         
       
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 a {
@@ -28,7 +28,7 @@ header {
 }
 
 header a {
-    color: whitesmoke;
+    color:limegreen;
 
 }
 
@@ -90,7 +90,6 @@ footer nav ul {
     display: grid;
     align-content: center;
     text-align: center;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(102, 255, 0));
     min-height: 50vh;
     color: rgb(48, 20, 4);
 }
@@ -111,6 +110,15 @@ margin: 1em auto;
 .hero h2 span:nth-child(2) { color: rgb(231, 185, 185); }   
 .hero h2 span:nth-child(1) { color: rgb(255, 255, 255); }
 
+.page-home .hero{
+    background-image: url('https://picsum.photos/id/28/1500/450');
+    background-position: bottom right;
+    background-size: cover;
+}
+.page-sub .hero{
+    background-image: url('https://picsum.photos/id/48/1500/450');
+    background-size: cover;
+}
 /* LISTS */
 .lists {
     max-width: 1000px;
@@ -126,9 +134,25 @@ margin: 1em auto;
     }
 }
 
-/* SUBPAGES */
-.page-sub .hero {
-    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,40,0))
+
+    
+
+/* BLOG Archives */
+
+.blog-archives {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.blog-entry {
+    border: 1px solid #ddd;
+    padding: 2em;
+    margin: 2em 0;
+}
+
+.date {
+    opacity: .5;
+    font-size: .8em;
 }
 
 
