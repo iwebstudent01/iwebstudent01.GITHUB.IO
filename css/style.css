@@ -24,7 +24,7 @@ header {
    background: black;
    color: salmon;
    padding: 1em 2em;
-
+   font-family: 'Oleo Script', cursive;
 }
 
 header a {
@@ -37,6 +37,7 @@ header {
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
+
 
 
 
@@ -77,7 +78,7 @@ section {
 
 /* FOOTER */
 footer {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid rgb(109, 4, 4);
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -91,7 +92,8 @@ footer nav ul {
     align-content: center;
     text-align: center;
     min-height: 50vh;
-    color: rgb(48, 20, 4);
+    color: rgb(219, 0, 0);
+    font-family: 'Pacifico', cursive;
 }
 .hero h2 {
     font-size: 3em;
@@ -115,10 +117,17 @@ margin: 1em auto;
     background-position: bottom right;
     background-size: cover;
 }
-.page-sub .hero{
+.page-about .hero{
     background-image: url('https://picsum.photos/id/48/1500/450');
     background-size: cover;
 }
+
+.page-blog .hero {
+    background-image: url('https://picsum.photos/id/1042/1500/450');
+    background-position: center top;
+    background-size: cover;
+}
+
 /* LISTS */
 .lists {
     max-width: 1000px;
